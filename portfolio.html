@@ -14,6 +14,11 @@
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/js/uikit-icons.min.js"></script>
     <title>Jake's Portfolio</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -27,8 +32,7 @@
                         <div uk-navbar>
         
                             <ul class="uk-navbar-nav">
-                                <li> <img src="Original.png" alt="JP logo" height="70px" width="70px" id="logo"> </li>
-                                <li> <a href="index.html">Home</a> </li>
+                                <li> <a href="index.html"> <img src="Original.png" alt="JP logo" height="70px" width="70px" id="logo"> </a> </li>
                                 <li class="uk-active"> <a href="portfolio.html">Portfolio</a> </li>
                                 <li> <a href="#">Connect</a>
                                     <div class="uk-navbar-dropdown">
@@ -49,32 +53,75 @@
 
     <!--Body-->
     <div class="uk-background-image uk-background-cover" style="background-image: url(AdobeStock_296852355.jpeg);" id="background">
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
-        <p>cx</p>
+            <br>
+            <h1 class="uk-heading uk-heading-2xlarge" id="portfolio">Portfolio</h1>
+            <br>
+           <div class="uk-child-width-expand@m uk-grid-match" uk-grid>
+
+                    <div>
+                        <div class="uk-card uk-card-default" id="portfoliocards">
+                            <div class="uk-card-media-top uk-card-hover">
+                                <a href="https://mustafakhairalla.github.io/duck-duck-code/">
+                                <img src="https://github.com/MustafaKhairalla/duck-duck-code/raw/master/assets/Images/Screen%20Shot%202020-02-01%20at%201.40.23%20PM.png?raw=true" alt="FoodApp" class="border border-dark">
+                                </a>
+                            </div>
+                            <div class="uk-card-body">
+                                <div class="uk-inline">
+                                <h3 class="uk-card-title">Foodecipe</h3>
+                                <div uk-dropdown>
+                                    <a href="https://github.com/MustafaKhairalla/duck-duck-code">Github Repository</a>
+                                </div>
+                                </div>
+                                <p>Foodecipe is a hunger-driven application designed to make finding delicious
+                                     recipes from around the world easier than ever!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div>
+                            <div class="uk-card uk-card-default" id="portfoliocards">
+                                <div class="uk-card-media-top uk-card-hover">
+                                    <a href="https://jcbpetersen1995.github.io/unit-05-homework/">
+                                    <img src="Screen Shot 2020-02-15 at 7.50.02 PM.png" alt="Dayplanner" class="border border-dark">
+                                    </a>
+                                </div>
+                                <div class="uk-card-body">
+                                    <div class="uk-inline">
+                                    <h3 class="uk-card-title">Work Day Scheduler</h3>
+                                    <div uk-dropdown>
+                                        <a href="https://github.com/jcbpetersen1995/unit-05-homework">Github Repository</a>
+                                    </div>
+                                    </div>
+                                    <p>The Work Day Scheduler is a simple planning application designed to help
+                                        make day-planning simple!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                                <div class="uk-card uk-card-default" id="portfoliocards">
+                                    <div class="uk-card-media-top uk-card-hover">
+                                        <a href="https://jcbpetersen1995.github.io/Unit-3-Homework/">
+                                        <img src="Screen Shot 2020-02-15 at 8.05.01 PM.png" alt="Dayplanner" class="border border-dark">
+                                        </a>
+                                    </div>
+                                    <div class="uk-card-body">
+                                        <div class="uk-inline">
+                                        <h3 class="uk-card-title">Password Generator</h3>
+                                        <div uk-dropdown>
+                                            <a href="https://github.com/jcbpetersen1995/Unit-3-Homework">Github Repository</a>
+                                        </div>
+                                        </div>
+                                        <p>A simple application designed to generate random passwords effortlessly.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                    
+            </div>
+          
+                
                 
     </div>
 
