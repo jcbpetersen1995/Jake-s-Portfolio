@@ -14,8 +14,11 @@
     margin-top: 20px;
 }
 #portfolio {
-    color: rgb(51, 48, 48);
+    color: rgb(201, 192, 192);
     margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgba(33, 33, 33, 0.733);
 }
 .footer {
     background-color: rgb(33, 33, 33);
@@ -23,21 +26,44 @@
     height: 15%;
 }
 #name {
-    color: rgb(33, 33, 33);
+    color: rgb(212, 206, 206);
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgba(33, 33, 33, 0.788);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#bio {
+    background-color: rgba(33, 33, 33, 0.733);
+    margin-left: 20px;
+    color: rgb(212, 206, 206);
+    padding: 15px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+#jakepic {
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-bottom: 50px;
 }
 
 @media (min-width: 768px) {
     #portfolio {
-        color: rgb(240, 233, 233);
+        color: rgb(236, 233, 233);
         font-style: bold;
         margin-left: 20px;
         text-align: center;
+        font-family: 'Orbitron', sans-serif;
         
     }
     #name {
-        color: rgb(240, 233, 233);
+        color: rgba(255, 255, 255, 0.897);
         font-style: bold;
         margin-left: 20px;
         text-align: center;
+        font-family: 'Orbitron', sans-serif;
+    }
+    #jakepic {
+        margin-top: 50px;
     }
 }
+
